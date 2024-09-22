@@ -1,0 +1,31 @@
+version: "2.0"
+
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hey
+      - Hello
+
+  - intent: mood
+    examples: |
+      - I feel down
+      - I'm feeling sad
+      - I've had a rough day
+
+  - intent: inquire_favorite
+    examples: |
+      - What's your favorite thing to do?
+      - What do you enjoy doing?
+
+  - intent: express_loneliness
+    examples: |
+      - I feel lonely
+      - No one cares about me
+      - I feel alone
+
+  - intent: thank_you
+    examples: |
+      - Thanks
+      - Thank you
+      - I appreciate it

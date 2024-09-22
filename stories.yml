@@ -1,0 +1,22 @@
+version: "2.0"
+
+stories:
+  - story: greet and respond
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: express mood and get comfort
+    steps:
+      - intent: mood
+      - action: utter_mood
+
+  - story: express loneliness and get support
+    steps:
+      - intent: express_loneliness
+      - action: utter_loneliness
+
+  - story: say thanks and respond
+    steps:
+      - intent: thank_you
+      - action: utter_happy

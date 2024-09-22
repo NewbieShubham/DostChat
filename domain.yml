@@ -1,0 +1,40 @@
+intents:
+  - greet
+  - mood
+  - inquire_favorite
+  - express_loneliness
+  - thank_you
+
+responses:
+  utter_greet:
+    - text: "Hey! How’s it going?"
+
+  utter_mood:
+    - text: "I’m here for you. Want to talk about it?"
+
+  utter_favorite:
+    - text: "Sometimes just talking helps, or we can chat about something fun!"
+
+  utter_loneliness:
+    - text: "You’re not alone—I’m always here for you, anytime you need."
+
+  utter_support:
+    - text: "That sounds really tough, but I care about you, and I’m always here if you need."
+
+  utter_listen:
+    - text: "I’m always here for you. Let’s talk about anything you like, or I can just listen if you prefer."
+
+  utter_understand:
+    - text: "That must be really hard. I may not have all the answers, but I’m here to try to understand and support you."
+
+  utter_cheer:
+    - text: "I’m with you! Let’s find something to cheer you up. How about your favorite music?"
+
+  utter_happy:
+    - text: "I’m really glad to hear that! Anytime you need me, I’m here."
+
+  utter_hangout:
+    - text: "Not much, just hanging out with my favorite person—You!"
+
+  utter_count_on:
+    - text: "Of course! You can always count on me. :)"
